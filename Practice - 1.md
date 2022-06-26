@@ -95,7 +95,7 @@
 - select * from rec_pd ;
 
 ### rec_pur 테이블에서 cust_Id, pd_id,Count(1) 검색 (cust_id, pd_id를 그룹화)
-SELECT cust_id, pd_id, COUNT(1)
-FROM `rec_pur`
-GROUP BY cust_id, pd_id
-;
+- SELECT cust_id, pd_id, COUNT(1)
+        FROM `rec_pur`
+        GROUP BY cust_id, pd_id
+        ;
